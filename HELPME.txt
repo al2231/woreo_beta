@@ -1,0 +1,19 @@
+sourcetree and github to collaborate on unity project
+remote repositories, add your github account
+make a folder on your local machine, and clone the github repo
+all the changes in the folder on your local machine will reflect on sourcetree
+(the unity project files in the sourcetree folder)
+
+stage files, push, pull, commit on sourcetree
+
+when pulling, you can just open unity project from repo
+
+make personal access token in developer settings on github 
+settings in source tree
+edit the path add in front of github.com <personal access token>@
+
+
+
+ssh key -> make on github
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+save as private PUTTY on source tree and launch (<- all under tools)
