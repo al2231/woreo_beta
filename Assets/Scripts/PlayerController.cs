@@ -36,14 +36,17 @@ public class PlayerController : MonoBehaviour
         if (direction > 0f) {
             // in vector, first is x : second is y
             player.velocity = new Vector2(direction * speed, player.velocity.y);
+            transform.localScale = new Vector2(1f, 1f);
         }
         // negative, moving left
         else if(direction < 0f) {
             player.velocity = new Vector2(direction * speed, player.velocity.y);
+            transform.localScale = new Vector2(-1f, 1f);
         }
         // if nothing is pressed, no movement
         else {
             player.velocity = new Vector2(0, player.velocity.y);
+
         }
 
         if (Input.GetButtonDown("Jump") && isTouchingGround ) {
