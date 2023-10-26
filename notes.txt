@@ -1,0 +1,29 @@
+rigid body and collider
+
+create empty parent, groups multiple elements in one game object
+prefab, have the same components and assets
+
+2d sprite and 2d tilemap editor in package manager under window
+
+inspect tiles -> texture type sprite (2d and UI)
+sprite mode , single or multiple depending on whats in the png
+
+tile palette add ing, paint in tilemap, created under hierarchy 
+tilemap collider
+
+unity edit perferences, external tools, specify which script editor
+start with capital and no spaces when naming scripts
+
+need to attach script to an object
+
+edit -> project settings -> input manager
+edit which keys are assigned to which action
+
+ex: left and right arrows will edit the horizontal value
+
+ground check -> create child obj under player, move to bottom of player, going to be touching ground
+drag the child, set within the player inspector
+
+select things that are going to be ground, in inspector at the top next to tag -> layers make/set ground layer
+
+specify in unity, variables will show up to the obj where the script is attached
