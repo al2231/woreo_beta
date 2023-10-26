@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (Input.GetButtonDown("Jump") && isTouchingGround ) {
-            Debug.Log(isTouchingGround);
+            // Debug.Log(isTouchingGround);
             player.velocity = new Vector2(player.velocity.x, jumpSpeed);
         }
     }
