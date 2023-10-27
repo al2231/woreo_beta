@@ -27,3 +27,11 @@ drag the child, set within the player inspector
 select things that are going to be ground, in inspector at the top next to tag -> layers make/set ground layer
 
 specify in unity, variables will show up to the obj where the script is attached
+
+sticking to edges of platform -> could be friction or the collider of the player is not smooth enough, could get stuck
+create physics material 2d and add to collision, to change friction and bouciness or
+rather than polygon -> capsule collider , has a round collision box
+
+transform.localScale - set the orientation
+
+transform.Lerp use with smoothing , how fast the camera catches up with the player
